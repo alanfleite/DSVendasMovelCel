@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonok"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/ImageButton07"
+        android:src="@drawable/logodata" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/ImageButton07"
+        android:src="@drawable/bloc" />
+    
+    <ImageButton
+        android:id="@+id/ImageButton07"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageButton02"
+        android:layout_alignRight="@+id/ImageButton02"
+        android:src="@drawable/iconsair"
+        android:text="Sair" />
+    
+	<ImageButton
+        android:id="@+id/buttonok"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txvVlTotal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:src="@drawable/auxiliar" />    
+    
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txvVlTotal"
+        android:src="@drawable/venda"
+        android:text="Venda" />
+        
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton01"
+        android:src="@drawable/prod"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ImageButton02"
+        android:layout_below="@+id/ImageButton02"
+        android:layout_marginRight="26dp"
+        android:text="Produtos" />
+
+    <TextView
+        android:id="@+id/txvVlTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignRight="@+id/buttonok"
+        android:layout_marginRight="20dp"
+        android:text="Auxiliares" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageButton01"
+        android:layout_below="@+id/ImageButton01"
+        android:layout_marginLeft="35dp"
+        android:text="Vendas" />
+
+
+    <ImageButton
+        android:id="@+id/ImageButton03"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ImageButton05"
+        android:layout_toLeftOf="@+id/ImageButton01"
+        android:src="@drawable/atcliente"
+        android:text="OK" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ImageButton05"
+        android:layout_toLeftOf="@+id/ImageButton02"
+        android:src="@drawable/atest"
+        android:text="OK" />
+    
+    <ImageButton
+        android:id="@+id/ImageButton05"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageButton02"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/savserv"
+        android:text="OK" />
+    
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_toRightOf="@+id/ImageButton04"
+        android:text="Salvar no servidor" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageButton04"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="At. Estoque" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView04"
+        android:layout_alignBottom="@+id/TextView04"
+        android:layout_toLeftOf="@+id/ImageButton04"
+        android:text="Atualizar Cliente" />
+
+    <TextView
+        android:id="@+id/txtAno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvVersao"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/ImageButton01"
+        android:text="2015" />
+
+    <TextView
+        android:id="@+id/txvVersao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:text="10.0.34" />
+
+</RelativeLayout>
